@@ -13,12 +13,16 @@ takes in dom -> extract images from dom -> loads it into clip api -> inject text
 WebExtensions
 JavaScript
 
-
+Jamie
 Availability:
     Hours: 10-15
     Actual timing: Pretty open
     
+Ruman
+Availability:
 
+Gavin
+Availability:
 
 
 Semantic Web Scraper
