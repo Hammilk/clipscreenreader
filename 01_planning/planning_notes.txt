@@ -1,20 +1,3 @@
-exquisite corpse game - personal -  art project w/ computing
-better process feedback - plugin
-fine tune my llm -- reject
-llm ease tool --- reject
-finally make my dating app
-some other project ideas i had that i wanna work on are 
-
-#process feedback
-    - plugin
-    - actual project
-    - risk pissing a professor
-
-
-fullstack - making a new app for making custom rocksmith charts
-#fullstack - making a website that can help you learn and quiz on knowledge about different dota mechanics
-    Could be generalized into a quiz making tool
-
 Stack:
 tailwind CSS
 tsx/jsx
