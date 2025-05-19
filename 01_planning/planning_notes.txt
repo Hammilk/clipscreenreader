@@ -1,0 +1,75 @@
+exquisite corpse game - personal -  art project w/ computing
+better process feedback - plugin
+fine tune my llm -- reject
+llm ease tool --- reject
+finally make my dating app
+some other project ideas i had that i wanna work on are 
+
+#process feedback
+    - plugin
+    - actual project
+    - risk pissing a professor
+
+
+fullstack - making a new app for making custom rocksmith charts
+#fullstack - making a website that can help you learn and quiz on knowledge about different dota mechanics
+    Could be generalized into a quiz making tool
+
+Stack:
+tailwind CSS
+tsx/jsx
+MERN -
+
+Quizes be random
+https://www.opendota.com/api-keys
+
+First Steps:
+Quiz page -> Design (testable)
+    CSS/HTML stuff
+    Login page -> Database
+    Gavin
+        - Firebase / SQL
+
+Call API -> as a multiple choice: Components call it, makes api call, think about the parameters pass component, returns, .json
+    Standalone component that interacts and pulls from API call
+    Express
+    Jamie
+
+Design backend -> business logic
+    Generating the quizes
+    Contrained randomly
+    David
+
+https://cdn.akamai.steamstatic.com/
+     
+
+ignoreDatabase -> Cache API Data : For later thing, for testing just make straight up API calls
+ignoreAssets - steal from OPEN DOTA API
+
+Action Items:
+    David make github repo
+    Every, expore your section, figure out your architecture, code as much as you can
+    Jamie, let's get a successful API call
+    Gavin, finalize a database
+    Me, do stuff
+    Jamie, throw current work in main
+
+Weekly standups
+Monday -> 3:00 pm 
+
+
+
+
+GODOT
+GAMEMAKER
+OPEN-GL
+make a game (it's whole thing)
+
+GODOT -VIM MOTION
+
+
+
+
+
+
+
