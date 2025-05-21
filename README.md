@@ -1,4 +1,4 @@
-# clipscreenreader
+# dotaquizmaker
 
 ## Starting
 In order to run this application, you will need to run `npm install` in the root folder, server folder, and client folder.  
