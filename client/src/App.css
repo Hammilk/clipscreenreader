@@ -1,222 +1,230 @@
 /* Universal Styles */
 
 html {
-  --steel-blue: #3c5585;
-  --light-stone: #929FB6;
-  --light-stone-shadow: #182234;
+    --steel-blue: #3c5585;
+    --light-stone: #929FB6;
+    --light-stone-shadow: #182234;
 }
 
 body {
-  min-height: 100vh;
-  background-image: linear-gradient(var(--steel-blue), var(--light-stone));
+    min-height: 100vh;
+    background-image: linear-gradient(var(--steel-blue), var(--light-stone));
 }
 
 @media (max-width: 576px) {
-  .web-heading {
-    font-size: 100vw;
-  }
+    .web-heading {
+        font-size: 100vw;
+    }
 }
 
 #header-icon {
-  height: 90%;
-  padding-top: 2%;
+    height: 90%;
+    padding-top: 2%;
 }
 
 #header-icon img {
-  max-width: 360px;
-  width: 90%;
-  height: auto;
+    max-width: 360px;
+    width: 90%;
+    height: auto;
 }
 
 .web-heading {
-  margin-top: 5vh;
-  color: var(--light-stone);
-  height: 20vh;
-  max-height: 20vh;
-  text-shadow: 5px 5px 3px var(--light-stone-shadow);
-  text-decoration: none;
-  color: var(--light-stone);
+    margin-top: 5vh;
+    color: var(--light-stone);
+    height: 20vh;
+    max-height: 20vh;
+    text-shadow: 5px 5px 3px var(--light-stone-shadow);
+    text-decoration: none;
+    color: var(--light-stone);
 }
 
 .web-heading h1 {
-  font-size: 108pt;
-  height: 100%;
+    font-size: 108pt;
+    height: 100%;
 }
 
 .web-heading a {
 
-  text-decoration: none;
-  color: var(--light-stone);
+    text-decoration: none;
+    color: var(--light-stone);
 }
 
 
 @media (max-width: 1199px) {
-  .web-heading h1 {
-    font-size: 96pt;
-  }
+    .web-heading h1 {
+        font-size: 96pt;
+    }
 }
 
 @media (max-width: 991px) {
-  .web-heading h1 {
-    font-size: 72pt;
-  }
+    .web-heading h1 {
+        font-size: 72pt;
+    }
 
 
 }
 
 @media (max-width: 767px) {
-  .web-heading h1 {
-    font-size: 64pt;
-  }
+    .web-heading h1 {
+        font-size: 64pt;
+    }
 
-  #header-icon {
-    visibility: hidden;
-  }
+    #header-icon {
+        visibility: hidden;
+    }
 }
 
 @media (max-width: 575px) {
-  .web-heading h1 {
-    font-size: 48pt;
-  }
+    .web-heading h1 {
+        font-size: 48pt;
+    }
 }
 
 
 .footer {
-  height: 10vh;
-  max-height: 10vh;
+    height: 10vh;
+    max-height: 10vh;
 }
 
 .nanum-myeongjo-regular {
-  font-family: "Nanum Myeongjo", serif;
-  font-weight: 400;
-  font-style: bold;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: bold;
 }
 
 
 /* Universal Form Styles */
 
 .nanum-gothic-coding-regular {
-  font-family: "Nanum Gothic Coding", monospace;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 600;
+    font-style: normal;
 }
 
 input[type="submit"],
 input[type="reset"] {
-  margin: auto 10px;
-  width: 100px;
+    margin: auto 10px;
+    width: 100px;
 }
 
 label {
-  font-size: 16pt;
-  width: 16%;
+    font-size: 16pt;
+    width: 16%;
 }
 
 input:not(input[type="submit"], input[type="reset"]) {
-  width: 200px;
+    width: 200px;
 }
 
 form {
-  padding-top: 5%;
-  height: 60vh;
-  max-height: 60vh;
-  margin-right: 3.5%;
+    padding-top: 5%;
+    height: 60vh;
+    max-height: 60vh;
+    margin-right: 3.5%;
 }
 
 form .row {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 576px) {
-  label {
-    font-size: 14pt;
-  }
+    label {
+        font-size: 14pt;
+    }
 
-  input:not(input[type="submit"], input[type="reset"]) {
-    width: 200px;
-  }
+    input:not(input[type="submit"], input[type="reset"]) {
+        width: 200px;
+    }
 }
 
 /* Home Page Styles */
 
 #nav {
-  list-style: none;
-  padding: 2vh;
-  height: 60vh;
-  max-height: 60vh;
-  margin: 0;
+    list-style: none;
+    padding: 2vh;
+    height: 20vh;
+    max-height: 20vh;
+    margin: 0;
+}
+
+#hero-content {
+    margin-bottom: 30vh;
+}
+
+#hero-name {
+    text-align: center;
 }
 
 .nav-button {
-  margin: 5%;
-  padding: auto;
-  height: 10%;
-  max-height: 10%;
-  background-image: linear-gradient(to top left, var(--steel-blue), var(--light-stone-shadow));
-  border-bottom: 5px solid var(--light-stone-shadow);
-  border-radius: 15px;
+    margin: 5%;
+    padding: auto;
+    height: 50%;
+    max-height: 50%;
+    background-image: linear-gradient(to top left, var(--steel-blue), var(--light-stone-shadow));
+    border-bottom: 5px solid var(--light-stone-shadow);
+    border-radius: 15px;
 }
 
 .nav-button :is(a:visited, a:link) {
-  text-decoration: none;
-  color: var(--light-stone);
-  text-align: center;
-  margin: 0;
-  height: 100%;
-  max-height: 100%;
+    text-decoration: none;
+    color: var(--light-stone);
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    max-height: 100%;
 }
 
 @media (max-width: 991px) {
-  .nav-button {
-    margin: 10%;
-  }
+    .nav-button {
+        margin: 10%;
+    }
 }
 
 /* Logout Page Styles */
 #logout {
-  padding: 2vh;
-  height: 60vh;
-  max-height: 60vh;
-  padding-top: 10vh;
-  margin: 0;
+    padding: 2vh;
+    height: 60vh;
+    max-height: 60vh;
+    padding-top: 10vh;
+    margin: 0;
 }
 
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
 
-  to {
-    transform: rotate(360deg);
-  }
+    to {
+        transform: rotate(360deg);
+    }
 }

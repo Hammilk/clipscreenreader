@@ -7,6 +7,7 @@ import { useState } from "react";
 import Logout from "./routes/Logout";
 import Register from "./routes/Register";
 import Account from "./routes/Account";
+import Item from "./routes/Item";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home loggedIn={loggedIn} />} />
+            <Route path="item" element={<Item />} />
           <Route
             path="login"
             element={
